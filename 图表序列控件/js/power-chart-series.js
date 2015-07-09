@@ -1,6 +1,3 @@
-/// reference to angular.js
-/// reference to jquery-1.11.1.js
-
 (function () {
 
 	function getFieldItem(source, fieldName) {
