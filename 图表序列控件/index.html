@@ -15,7 +15,6 @@
 					
 					<select class="chartseries-source" ng-model="model.operate" ng-change="changeOperate()" ng-show="fieldType=='datetime'">
 						<option class="chartseries-operate" value="{{option.value}}"  ng-repeat="option in dateServies">所属{{option.label}}</option>
-						<option class="chartseries-operate" value="month" >月</option>
 						<!--<option class="chartseries-operate" value="day" >日</option>-->
 					</select>
 					<select class="chartseries-source" ng-model="model.selectedValue" ng-change="changeSelectedValue()">
